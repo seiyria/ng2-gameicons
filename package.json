@@ -1,0 +1,39 @@
+{
+  "name": "ng2-gameicons",
+  "version": "0.0.1",
+  "description": "An easy-to-use directive for game-icons icons.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src/index.js -o index.js --plugins transform-decorators-legacy,transform-class-properties --presets es2015"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seiyria/ng2-gameicons.git"
+  },
+  "keywords": [
+    "ng2",
+    "angular2",
+    "gameicons",
+    "game",
+    "icons",
+    "ng2-gameicons",
+    "angular2-gameicons"
+  ],
+  "author": "Kyle Kemp <kyle@seiyria.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seiyria/ng2-gameicons/issues"
+  },
+  "homepage": "https://github.com/seiyria/ng2-gameicons#readme",
+  "dependencies": {
+    "gameicons-font": "github:seiyria/gameicons-font"
+  },
+  "peerDependencies": {
+    "@angular/core": "2.0.0-rc.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.9.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}

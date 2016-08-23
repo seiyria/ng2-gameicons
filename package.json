@@ -1,6 +1,6 @@
 {
   "name": "ng2-gameicons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An easy-to-use directive for game-icons icons.",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "gameicons-font": "github:seiyria/gameicons-font"
   },
   "peerDependencies": {
-    "@angular/core": "2.0.0-rc.1"
+    "@angular/core": "2.0.0-rc.4"
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.9.0",
